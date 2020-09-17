@@ -1,0 +1,43 @@
+@CHARSET "utf-8";
+
+#wrap {
+	width: 800px;
+	margin: 70px auto;
+	text-align: center;
+}
+ 
+#wrap>h1 {
+	text-align: center;
+}
+
+#wrap table {
+	margin: 0 auto;
+}
+
+#wrap th {
+	width: 80px;
+	height: 30px;
+	background-color: #f3f3f3;
+	padding: 5px;
+}
+
+#wrap td { 
+	background-color: #f9f9f9;
+	padding: 5px;
+	text-align:left;
+}
+
+.btn {
+	font-family: 'Cafe24Simplehae';
+	font-size: 15px;
+	height: 25px;
+	width: 100px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: white;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #f3f3f3;
+}

@@ -1,0 +1,123 @@
+@CHARSET "utf-8";
+
+#wrap {
+	width: 810px;
+	margin: 70px auto;
+}
+ 
+#wrap>h1 {
+	text-align: center;
+}
+
+#feedTable {
+	margin: 0 auto;
+	width:800px;
+	/* border: 1px black solid; */
+	background-color: #f3f3f3;
+	border-radius: 10px;
+	padding: 20px 10px;
+}
+
+#commentTable {
+	margin: 0 auto;
+	width:800px;
+	/* border: 1px black solid; */
+	background-color: #f3f3f3;
+	border-radius: 10px;
+	padding: 10px 10px;
+}
+
+#profileImgBox {
+	width: 35px;
+	height: 35px;
+	border-radius: 70%;
+	overflow: hidden;
+	float:left;
+	margin: auto 10px;
+}
+
+#profileImg {
+	width: 35px;
+	height: 35px;
+	object-fit: cover;
+}
+
+h3#idH3 {
+	margin-top: 9px;
+	margin-bottom: 9px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: #737373;
+	border-bottom: 2px #737373 solid;
+}
+
+#feedImg {
+	width:100%;
+}
+
+textarea:focus, input:focus, select:focus{
+    outline: none;
+}
+
+.textBox {
+	width: 680px;
+	height: 20px;
+	border: 1px solid black;
+	border-radius: 10px;
+	font-family: 'Cafe24Simplehae';
+	font-size: 15px;
+	padding-left: 10px;
+	vertical-align: bottom;
+}
+
+.btn {
+	font-family: 'Cafe24Simplehae';
+	font-size: 15px;
+	height: 25px;
+	width: 100px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: white;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #f3f3f3;
+}
+
+#commentInput {
+	margin: 5px 5px;
+}
+
+#deleteBtn {
+	cursor: pointer;
+	font-family: 'Arial';
+	font-size: 0.7rem;
+}
+
+.like {
+	width:25px; 
+	cursor:pointer;
+}
+
+#likeList {
+	display: inline-block;
+	vertical-align: middle;
+	padding-bottom: 14px;
+	padding-left: 5px;
+}
+
+.hashtag {
+	cursor: pointer;
+	color: #2196F3;
+}
+
+.hashtag:hover {
+	color: #3f51b5;
+}

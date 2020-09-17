@@ -1,0 +1,222 @@
+@CHARSET "utf-8";
+
+#wrap {
+	width: 810px;
+	margin: 70px auto;
+}
+ 
+#wrap>h1 {
+	text-align: center;
+}
+
+#profileTable {
+	margin: 0 auto;
+	width:800px;
+	/* border: 1px black solid; */
+	background-color: #f3f3f3;
+	border-radius: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#profileTable, #profileTable tr, #profileTable td {
+	text-align: center;
+	border-spacing: 10px;
+}
+
+#img_td {
+	width: 222px;
+}
+
+#profileImgBox {
+	width: 222px;
+	height: 222px;
+	border-radius: 70%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#setting {
+	position: absolute;
+	transform: translate(-187px, 30px);
+	cursor: pointer;
+	width: 150px;
+	height: 150px;
+	opacity: 0;
+}
+#setting:hover {
+	opacity: 0.5;
+}
+
+#profileImg {
+	width: 222px;
+	height: 222px;
+	object-fit: cover;
+}
+
+#followerList, #followingList {
+	overflow-y:scroll; 
+	width:440px; 
+	height:400px;
+}
+
+#f_profileImgBox {
+	width: 25px;
+	height: 25px;
+	border-radius: 70%;
+	overflow: hidden;
+	float: left;
+	margin-right: 10px;
+}
+
+#f_profileImg {
+	width: 25px;
+	height: 25px;
+	object-fit: cover;
+}
+
+#f_id {
+	height: 25px;
+	font-size: 1.6rem;
+	margin-bottom: 5px;
+}
+
+#follow_a, #f_id>a {
+	text-decoration: none;
+	color: black;
+}
+
+#follow_a:hover, #f_id>a:hover {
+	color: #737373;
+	border-bottom: 2px #737373 solid;
+}
+
+#add_td {
+	cursor: pointer;
+}
+
+#add_td a {
+	text-decoration: none;
+	color: black;
+}
+
+#add_td h3 {
+	margin: 0;
+	padding: 18px 0;
+}
+
+#add_td:hover {
+	background-color: #efefef;
+}
+
+#feed_td {
+	width: 222px;
+	height: 222px;
+	/* border: 1px solid black; */
+	border-radius: 10px;
+}
+
+#feed_td:hover {
+	background-color: #efefef;
+}
+
+#feed_td > div {
+	width:240px; 
+	height:200px; 
+	overflow: hidden; 
+	position:relative; 
+	margin: auto; 
+	text-align: left;
+}
+
+#feed_td img {
+	width:100%; 
+	position:absolute; 
+	top: 50%; 
+	left: 50%; 
+	transform: translate(-50%, -50%);
+}
+
+#feed_td img:hover {
+	opacity:0.7;
+}
+
+.textBox {
+	width: 100px;
+	height: 20px;
+	border: 1px solid black;
+	border-radius: 10px;
+	font-family: 'Cafe24Simplehae';
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+.btn {
+	font-family: 'Cafe24Simplehae';
+	font-size: 15px;
+	height: 25px;
+	width: 100px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: white;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #f3f3f3;
+}
+
+textarea:focus, input:focus, select:focus{
+    outline: none;
+}
+
+#followOn {
+	background-color: white;
+	color: black;
+}
+
+#followOff {
+	background-color: black;
+	color: white;
+}
+
+/* modal ---------------------------------------------- */
+
+#feedModal h1 {
+	text-align: center;
+}
+
+#modalTable {
+	width:100%;
+}
+
+#modalTable td {
+	padding-bottom: 7px;
+}
+
+#sample5_address {
+	width: 200px;
+	margin-left: 15px;
+}
+
+#map {
+	margin:0 auto;
+}
+
+#img_wrap {
+	width: 100%;
+}
+
+#previewImg {
+	width: 100%;
+}
+
+textarea.textBox {
+	width: 100%;
+	height: 250px;
+	border: 1px solid black;
+	border-radius: 10px;
+	font-family: 'Cafe24Simplehae';
+	font-size: 15px;
+	padding-left: 10px;
+}

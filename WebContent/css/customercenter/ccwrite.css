@@ -1,0 +1,77 @@
+@CHARSET "utf-8";
+
+#wrap {
+	width: 800px;
+	margin: 70px auto;
+}
+ 
+#wrap>h1 {
+	text-align: center;
+}
+
+textarea:focus, input:focus, select:focus{
+    outline: none;
+}
+
+.btn {
+	font-family: 'Cafe24Simplehae';
+	font-size: 15px;
+	height: 25px;
+	width: 100px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: white;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #f3f3f3;
+}
+
+#subject {
+	width: 300px;
+	height: 20px;
+	border: 1px solid black;
+	border-radius: 10px;
+	font-family: 'Cafe24Simplehae';
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+#pw {
+	width: 65px;
+	height: 20px;
+	border: 1px solid black;
+	border-radius: 10px;
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+textarea.textBox {
+	width: 500px;
+	height: 250px;
+	border: 1px solid black;
+	border-radius: 10px;
+	font-family: 'Cafe24Simplehae';
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+th {
+	width: 100px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+#submit_btn {
+	text-align: center;
+}
+
+table {
+	margin:0 auto;
+}
+
+#secret {
+	margin-bottom: 10px;
+	cursor: pointer;
+}

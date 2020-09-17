@@ -1,0 +1,48 @@
+@CHARSET "utf-8";
+
+#wrap {
+	width: 800px;
+	margin: 70px auto;
+}
+ 
+#wrap>h1 {
+	text-align: center;
+}
+
+textarea:focus, input:focus, select:focus{
+    outline: none;
+}
+
+.btn {
+	font-family: 'Cafe24Simplehae';
+	font-size: 15px;
+	height: 25px;
+	width: 50px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: white;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #f3f3f3;
+}
+
+.textBox {
+	width: 100px;
+	height: 20px;
+	border: 1px solid black;
+	border-radius: 10px;
+	font-family: 'Cafe24Simplehae';
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+.textBox[type="password"] {
+	font-family: 'NG';
+}
+
+#msg {
+	text-align: center;
+	line-height: 25px;
+}

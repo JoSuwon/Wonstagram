@@ -1,0 +1,61 @@
+@CHARSET "utf-8";
+
+@font-face { font-family: 'NG'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Cafe24Simplehae'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Simplehae.woff') format('woff'); font-weight: normal; font-style: normal; }
+body {
+	margin: 0;
+	font-family:'Cafe24Simplehae';
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/* #loader-wrap {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+	background: black;
+	position: fixed;
+	left: 0;
+	top: 0;
+	animation-name: fadeOut;
+	animation-duration: 0.6s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+}
+
+#loader-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 3rem;
+}
+
+@keyframes fadeOut {
+	from {
+		opacity: 0.5;
+	}
+	to {
+		display: none;
+		opacity: 0;
+	}
+} */

@@ -1,0 +1,10 @@
+@CHARSET "utf-8";
+
+#wrap {
+	width: 800px;
+	margin: 70px auto;
+}
+ 
+#wrap>h1 {
+	text-align: center;
+}

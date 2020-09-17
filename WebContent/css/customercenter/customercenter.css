@@ -1,0 +1,115 @@
+@CHARSET "utf-8";
+
+#wrap {
+	width: 800px;
+	margin: 70px auto;
+}
+ 
+#wrap>h1 {
+	text-align: center;
+}
+
+table tr>th:nth-child(1) {
+	width: 100px;
+}
+
+table tr>th:nth-child(2) {
+	width: 400px;
+}
+
+table tr>th:nth-child(3) {
+	width: 100px;
+}
+
+table tr>th:nth-child(4) {
+	width: 150px;
+}
+
+table tr>th:nth-child(5) {
+	width: 50px;
+}
+
+table tr:nth-child(1) {
+	border-bottom: 1px solid black;
+}
+
+.btn {
+	font-family: 'Cafe24Simplehae';
+	font-size: 15px;
+	height: 25px;
+	width: 100px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: white;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #f3f3f3;
+}
+
+.textBox {
+	width: 130px;
+	height: 20px;
+	border: 1px solid black;
+	border-radius: 10px;
+	font-family: 'Cafe24Simplehae';
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+#table_search {
+	text-align: center;
+}
+
+th {
+	border-bottom:1px solid black;
+	background-color:#f1f1f1;
+}
+
+th,td {
+	padding: 5px 1px;
+}
+
+td:hover {
+	cursor: pointer;
+	background-color: #f3f3f3;
+}
+
+#write_btn {
+	text-align: right;
+	margin-right: 10px;
+}
+
+textarea:focus, input:focus, select:focus{
+    outline: none;
+}
+
+tr>td:nth-child(1),
+tr>td:nth-child(3),
+tr>td:nth-child(4),
+tr>td:nth-child(5) {
+	text-align: center;
+}
+
+#page_control {
+	width: 250px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+td > a {
+	text-decoration: none;
+	color: black;
+}
+
+#page_control a {
+	text-decoration: none;
+	color: black;
+	margin: 0 2px;
+	padding: 0 2px;
+}
+
+#page_control a:hover {
+	background-color: #f9f9f9;
+}
